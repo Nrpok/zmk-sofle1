@@ -458,3 +458,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [34, 35]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [30, 29]
+  k: $$mdi:apple-keyboard-shift$$
