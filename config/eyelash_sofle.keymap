@@ -42,11 +42,6 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
-        };
-
         rightshift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <34 35>;
@@ -55,6 +50,21 @@
         leftshift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <30 29>;
+        };
+
+        escapepress {
+            bindings = <&kp ESC>;
+            key-positions = <17 16>;
+        };
+
+        tabpress {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
+        };
+
+        capslockpress {
+            bindings = <&kp CLCK>;
+            key-positions = <27 28>;
         };
     };
 
