@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: '&'}
+  - '7'
   - Z
   - X
   - C
@@ -422,7 +422,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: Sft+8, s: Sft+*}
+  - Sft+8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
