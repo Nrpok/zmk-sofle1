@@ -45,14 +45,14 @@
         go_game: go_game {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 3 &rgb_ug RGB_COLOR_HSB(0,100,50)>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,50) &tog 3>;
             label = "GO_GAME";
         };
 
         go_base: go_base {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 3 &rgb_ug RGB_COLOR_HSB(192,100,51)>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(192,100,51) &tog 3>;
             label = "GO_BASE";
         };
     };
